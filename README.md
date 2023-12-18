@@ -13,7 +13,7 @@ sqlite3 wc.db 'select local_relpath, ".svn/pristine/" || substr(checksum,7,2) ||
 
 Next run the script using the resulting svn-input.txt file.
 
-```
+```bash
 ./svn-db_parser.sh --baseurl "https://victim.com" --input svn-input.txt --output report
 ```
 
