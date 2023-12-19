@@ -1,7 +1,7 @@
 # svn-db_downloader
 Little tool to exploit exposed SVN wc.db files
 
-The tool will download all files that are also visible in the wc.db. The may help you to get access to source code, secrets, configuration files etc.
+The tool will download all files that are also visible in the wc.db. This may help you to get access to source code, secrets, configuration files etc.
 
 ## Getting the required data
 Download the exposed wc.db file and run the following command on it:
